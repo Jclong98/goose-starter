@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { GButton, GPopover } from '@jclong98/goose/components';
+import { GButton, GPopover, GCard } from '@jclong98/goose/components';
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import { GButton, GPopover } from '@jclong98/goose/components';
   </p>
 
   <GPopover
-    class="border border-current/50 ml-1 px-4 py-3 rounded-lg"
+    class="ml-1"
     open
     position-area="right span-bottom"
   >
@@ -21,6 +21,8 @@ import { GButton, GPopover } from '@jclong98/goose/components';
       <GButton v-bind="binding"> Open popover </GButton>
     </template>
 
-    <p>Working <span class="text-goose">goose</span> popover!</p>
+    <GCard class="border rounded p-4">    
+      <p>Working <span class="text-goose">goose</span> popover!</p>
+    </GCard>
   </GPopover>
 </template>
