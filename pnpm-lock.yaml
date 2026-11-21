@@ -188,8 +188,8 @@ importers:
   .:
     dependencies:
       '@jclong98/goose':
-        specifier: 0.0.11
-        version: 0.0.11(@vueuse/core@15.0.0(vue@3.5.45(typescript@6.0.3)))(unimport@6.5.0(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(rolldown@1.2.19))(vue-router@5.5.1(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(@vue/compiler-sfc@3.5.45)(rolldown@1.2.19)(vue@3.5.45(typescript@6.0.3)))(vue@3.5.45(typescript@6.0.3))
+        specifier: 0.2.0
+        version: 0.2.0(@vueuse/core@15.0.0(vue@3.5.45(typescript@6.0.3)))(unimport@6.5.0(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(rolldown@1.2.19))(vue-router@5.5.1(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(@vue/compiler-sfc@3.5.45)(rolldown@1.2.19)(vue@3.5.45(typescript@6.0.3)))(vue@3.5.45(typescript@6.0.3))
       '@tailwindcss/vite':
         specifier: ^4.3.5
         version: 4.3.5(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))
@@ -543,8 +543,8 @@ packages:
   '@isaacs/nonrecursive-glob-match@1.1.0':
     resolution: {integrity: sha512-GPm/Dbvk5RLmhRnxXIa7nTpK0xtl4E0wj0MslsuNiJ1FIROU+2+9lgUC/dgF7Ey4QCWhfEsgxilMRMCdHPfDfw==}
 
-  '@jclong98/goose@0.0.11':
-    resolution: {integrity: sha512-lZtLCuHTvjvAG0Gy7lpSu4hVbV6vza8Sm/ZQL+4yZTnXVKr+PLVgeXmGjjthV83vTtVLztFYWb5PUNlapLsx5g==}
+  '@jclong98/goose@0.2.0':
+    resolution: {integrity: sha512-hZHxk4Z5+jKYywzsao5jyMczLMxNHCRDpz7MuTEmEkwt16lnPK4RDWAG4N65hiW51MczSDmDPSZl+bE3ejY1MQ==}
     peerDependencies:
       '@vueuse/core': ^15.0.0
       unimport: ^6.0.2
@@ -3002,7 +3002,7 @@ snapshots:
 
   '@isaacs/nonrecursive-glob-match@1.1.0': {}
 
-  '@jclong98/goose@0.0.11(@vueuse/core@15.0.0(vue@3.5.45(typescript@6.0.3)))(unimport@6.5.0(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(rolldown@1.2.19))(vue-router@5.5.1(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(@vue/compiler-sfc@3.5.45)(rolldown@1.2.19)(vue@3.5.45(typescript@6.0.3)))(vue@3.5.45(typescript@6.0.3))':
+  '@jclong98/goose@0.2.0(@vueuse/core@15.0.0(vue@3.5.45(typescript@6.0.3)))(unimport@6.5.0(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(rolldown@1.2.19))(vue-router@5.5.1(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(@vue/compiler-sfc@3.5.45)(rolldown@1.2.19)(vue@3.5.45(typescript@6.0.3)))(vue@3.5.45(typescript@6.0.3))':
     dependencies:
       '@vueuse/core': 15.0.0(vue@3.5.45(typescript@6.0.3))
       unimport: 6.5.0(@voidzero-dev/vite-plus-core@8.3.8000(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(jiti@2.7.0)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(rolldown@1.2.19)
